@@ -10,7 +10,6 @@ args = parser.parse_args()
 cwd = args.outputpath
 if cwd is None:
 	cwd = os.getcwd()
-	cwd = cwd + '\datacheck_ini_utility'
 
 
 fileConfig = open(str(cwd+'\config.txt'), 'r')
